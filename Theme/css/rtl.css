@@ -1,0 +1,93 @@
+html{
+    direction: rtl;
+}
+.navbar-expand-lg .navbar-nav{
+    margin-right: auto;
+    margin-left: 0px!important;
+}
+.hero-area .left-content .content,
+.whaybest .info .feature-list li .content,
+.feature .right-feature .feature-box .details,
+.video .section-title,
+.video .fun-box .inner-content .categori,
+.faq .accordion .panel-title,
+.faq .accordion .panel .panel-body,
+.contact .section-title,
+.contact .address
+{
+    text-align: right;
+}
+.whaybest .info .feature-list{
+    padding-right: 0px;
+}
+.whaybest .info .feature-list li .icon{
+    margin-right: 0px;
+    margin-left: 30px;
+}
+.feature .left-feature .feature-box,
+.testimonial-slider,
+.subscribe-section .newsletter-form-area input
+{
+    direction: ltr;
+}
+.feature  .feature-circle{
+    display: none;
+}
+.product-slider,
+.owl-carousel
+{
+    direction: ltr;
+}
+.video .fun-box .inner-content .categori i {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.faq .accordion .panel-title {
+    padding: 15px 30px 15px 55px;
+}
+.faq .accordion .panel-title::before {
+    right: auto;
+    margin-right: auto;
+    margin-left: 10px;
+    left: 20px;
+}
+.faq .accordion .panel-title::after {
+    right: auto;
+    left: 0px;
+}
+.faq .accordion .panel::after {
+    left: auto;
+    right: 0px;
+}
+
+.input-field[type=email]{
+    direction: ltr;
+}
+
+.contact .address .list p i {
+    margin-right: auto;
+    margin-left: 10px;
+}
+#mainmenu ul.navbar-nav li{
+    text-align: right;
+}
+#mainmenu ul.navbar-nav{
+    padding-right: 0px;
+}
+
+
+
+
+
+@media only screen and (max-width:1199px){
+    .about .box .inner-box {
+        padding: 27px 15px 35px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .home3 .hero_slider .item {
+        padding: 120px 0px 120px;
+    }
+}
